@@ -26,7 +26,7 @@ development:
   database: Blog_app_development
   host: localhost
   username: postgres
-  password: secret123
+  password: <%= ENV['BLOG_APP_DATABASE_PASSWORD'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -87,6 +87,6 @@ production:
   database: Blog_app_development
   host: localhost
   username: postgres
-  password: secret123
+  password: <%= ENV['BLOG_APP_DATABASE_PASSWORD'] %>
   # username: Blog_app
   # password: <%= ENV["BLOG_APP_DATABASE_PASSWORD"] %>
