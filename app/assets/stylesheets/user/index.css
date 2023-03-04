@@ -1,4 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
+.list.user-items {
+  display: flex;
+  align-items: center;
+}
+
+.user-items.name {
+  color: black;
 }
