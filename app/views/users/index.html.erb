@@ -1,4 +1,4 @@
-  <ul style="display: flex; flex-direction: column; gap: 10px;">
+  <ul style="display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem;">
     <% @users.each do |user| %>
       <%= render partial: "partials/user", locals: { user: user } %>
     <% end %>
