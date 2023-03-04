@@ -1,1 +1,30 @@
-<h1>My first Post</h1>
+<div>
+    <div>
+        <%= image_tag(@user.photo || '', class: "user_img") %>
+        <div>
+            <h2><%= @user.name %></h2>
+            <span>Number of posts: <%= @user.posts.count %> </span>
+        </div>
+    </div>
+    <div>
+        <%- @user.posts.each do |post| -%>
+            <div>
+                <h3><%= post.title %></h3>
+                <p><%= post.text %></p>
+                <div>
+                    <span>Comments: <%= post.comments_counter %></span>
+                    <span>Likes: <%= post.likes_counter %></span>
+                </div>
+                <a href="/users/<%= @user.id %>/posts/<%= post.id %>">View post</a>
+            </div>
+            <div>
+                <% post.five_most_recent_comments.each do |comment| %>
+                    <div>
+                        <span><%= comment.author.name  %>: </span>
+                        <span><%= comment.text  %></span>
+                    </div>
+                <%-end-%>
+            </div>
+        <%-end-%>
+    </div>
+</div>
