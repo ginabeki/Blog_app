@@ -1,0 +1,122 @@
+.post-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid #454360;
+  padding: 0.3rem;
+}
+
+.post-title {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.post-counter {
+  align-self: flex-end;
+  font-size: 0.8rem;
+}
+
+.userId-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-users {
+  width: 150px;
+  justify-self: center;
+  align-self: center;
+  background-color: #f84c5f;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-users:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-users a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.user-posts {
+  margin-top: 2rem;
+}
+
+.post-head {
+  font-size: 1.1rem;
+}
+
+.post-likes {
+  font-size: 0.8rem;
+}
+
+.posts-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comments {
+  border: 1px solid #454360;
+  padding: 0.3rem;
+  margin-top: -10px;
+}
+
+.post-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 0.3rem;
+  border: 1px solid #454360;
+}
+
+.post-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 0.3rem;
+  border: 1px solid #454360;
+}
+
+.btn-comment {
+  justify-self: center;
+  align-self: center;
+  background-color: #f84c5f;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.btn-comment a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-title {
+  color: #454360;
+}

@@ -1,23 +1,25 @@
 <div>
-    <div>
-        <%= image_tag(@user.photo || '', class: "user_img") %>
-        <div>
-            <h2><%= @user.name %></h2>
+    <div class="user-items user-posts">
+        <%= image_tag(@user.photo || '', class: "user-img") %>
+        <div class="name-post">
+            <h2 class="username"><%= @user.name %></h2>
             <span>Number of posts: <%= @user.posts.count %> </span>
         </div>
     </div>
-    <div>
+    <div class="posts-wrapper">
         <%- @user.posts.each do |post| -%>
-            <div>
-                <h3><%= post.title %></h3>
+            <div class="post-card">
+            <h3>
+            <a href="/users/<%= @user.id %>/posts/<%= post.id %>"><%= post.title %></a>
+            </h3>
                 <p><%= post.text %></p>
-                <div>
+                <div class="post-counter">
                     <span>Comments: <%= post.comments_counter %></span>
                     <span>Likes: <%= post.likes_counter %></span>
                 </div>
-                <a href="/users/<%= @user.id %>/posts/<%= post.id %>">View post</a>
+                
             </div>
-            <div>
+            <div class="comments">
                 <% post.five_most_recent_comments.each do |comment| %>
                     <div>
                         <span><%= comment.author.name  %>: </span>
