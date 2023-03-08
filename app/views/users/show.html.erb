@@ -12,7 +12,8 @@
             <%= @user.bio %>
         </span>
     </div>
-
+    <div class="create-post"><%= link_to "create new post", new_user_post_path(@user)%>
+    </div>
     <div class="collection">
         <%= render partial: 'partials/post', collection: @user.three_most_recent_posts, as: :post %>
     </div>

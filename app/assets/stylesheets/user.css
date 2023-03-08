@@ -32,11 +32,18 @@
   padding: 0 1rem;
   border: 1px solid #454360;
   width: 500px;
+  height: 80px;
 }
 
 h2.name {
   font-size: 1.4rem;
   color: #1f2937;
+}
+
+.name a {
+  text-decoration: none;
+  color: #1f2937;
+  font-size: 1.3rem;
 }
 
 .name-post p {
@@ -45,9 +52,10 @@ h2.name {
 }
 
 .user-image {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .user-id {

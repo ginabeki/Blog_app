@@ -1,0 +1,20 @@
+one:
+  id: 1
+  name: Tom Harvey
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tyrone-Smith-image-photo-avatar-headshot-logo.jpg/1536px-Tyrone-Smith-image-photo-avatar-headshot-logo.jpg"
+  bio: Cyclist from Miami
+  posts_counter: 6
+
+two:
+  id: 2
+  name: Jayden Smith
+  photo: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/15618284/original/d49dc4ed55985acb52b8004d47f70ee45dc7b968/create-an-avatar-headshot-of-your-picture.jpg"
+  bio: Software engineer from Russia
+  posts_counter: 0
+
+three:
+  id: 3
+  name: Janet Doe
+  photo: "https://cdn.dribbble.com/users/44585/screenshots/4195259/media/d3aeeffa1b771d5086d0499e34172faa.png?compress=1&resize=400x300&vertical=top"
+  bio: Teacher from Spain
+  posts_counter: 0

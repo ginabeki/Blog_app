@@ -37,7 +37,8 @@
 }
 
 .btn-users:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-users a {
@@ -47,9 +48,10 @@
 }
 
 .user-img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .user-posts {
@@ -119,4 +121,108 @@
 
 .form-title {
   color: #454360;
+}
+
+/* .pagination {
+  text-decoration: none;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+} */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a:focus,
+.pagination a:active {
+  background-color: #4caf50;
+  color: white;
+  text-decoration: underline;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination .disabled {
+  color: #bbb;
+  pointer-events: none;
+}
+
+.pagination .previous,
+.pagination .next {
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.pagination .previous.disabled,
+.pagination .next.disabled {
+  color: #bbb;
+  pointer-events: none;
+}
+
+.create-post {
+  margin-top: 2rem;
+}
+
+.create-post a {
+  color: #f84c5f;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #454360;
+  padding: 0.2rem;
+}
+
+.form-title {
+  margin-top: 2rem;
+}
+
+.form {
+  margin-top: 3rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #454360;
+}
+input[type='text'],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  outline: none;
+}
+input[type='submit'],
+.actions__button {
+  display: block;
+  padding: 0.5em;
+  background-color: #f84c5f;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  outline: none;
+  cursor: pointer;
+}
+input[type='submit']:hover,
+.actions__button:hover {
+  background-color: #f85d6f;
 }
