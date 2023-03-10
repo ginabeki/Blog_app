@@ -1,7 +1,7 @@
-<div class="card post-card flex">
+<div class="post-card">
   <%=link_to "#{post.title}", "#{@user.id}/posts/#{post.id}", :class => "post-title"%>
   <div class="post-short"><%=post.text[0,150]%>...</div>
-  <div class="post-counters flex">
+  <div class="post-counter">
     <span class="comments-counter">Comments: <%=post.comments_counter%></span> |
     <span class="likes-counter">Likes <%=post.likes_counter%></span>
   </div>
