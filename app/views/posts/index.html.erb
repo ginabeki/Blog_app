@@ -6,6 +6,11 @@
             <span>Number of posts: <%= @user.posts.count %> </span>
         </div>
     </div>
+
+    <% if @user == current_user %>
+      <%= link_to "Creat New post", new_user_post_path %>   
+  <% end %>
+
     <div class="posts-wrapper">
         <%- @posts.includes(:author).each do |post| -%>
             <div class="post-card">

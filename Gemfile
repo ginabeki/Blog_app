@@ -3,8 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 ruby '3.2.0'
-
+gem 'cancancan'
 gem 'devise'
+gem 'htmlbeautifier'
 gem 'will_paginate', '~> 3.3.0'
 
 gem 'dotenv-rails', groups: %i[development test]
