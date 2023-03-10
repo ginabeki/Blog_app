@@ -7,9 +7,11 @@ class CommentsController < ApplicationController
     @comment = Comment.new(comment_params)
 
     if @comment.save
+      flash[:notice] = 'Comment Added successfully'
       redirect_to user_posts_path(current_user)
     else
-      render :new
+      flash[:error] = 'An error has occurred. Comment could not be created, Please try again later.'
+      # render :new
     end
   end
 
