@@ -61,7 +61,8 @@ Rails.application.configure do
   # assets pipeline
   config.serve_static_assets = true
 
-
+  # defaul url option for development environment
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 } 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
 

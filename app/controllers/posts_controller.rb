@@ -20,8 +20,10 @@ class PostsController < ApplicationController
     @post = Post.new(person_params)
 
     if @post.save
+      flash[:notice] = 'Post was successfully created'
       redirect_to users_path
     else
+      flash.now[:error] = 'An error has occurred. Post could not be created, Please try again later.'
       render :new
     end
   end
