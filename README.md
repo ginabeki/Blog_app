@@ -19,7 +19,7 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-<!-- - [🙏 Acknowledgements](#acknowledgements)
+  <!-- - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq) -->
 - [📝 License](#license)
 
@@ -41,7 +41,6 @@
 - **Create a Post**
 - **Add a Comment to a Post**
 - **Like a Post**
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -112,6 +111,12 @@ Example command:
 - Twitter: [@gina](https://twitter.com/ginabeki)
 - LinkedIn: [@ginabeki](https://www.linkedin.com/in/ginabeki/)
 
+👤 **Mujeeb ur Rahman**
+
+- GitHub: [![Mujeeb](https://img.shields.io/badge/-Mujeeb_Ur_Rahman-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/githubhandle)
+- Twitter: [![mujeeburrahman](https://img.shields.io/badge/-mujeeburahman-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/twitterhandle)
+- LinkedIn: [![Mujeeb-ur-Rahman](https://img.shields.io/badge/-Mujeeb_Ur_Rahman-blue?logo=LinkedIn&logoColor=#0072b1&style=plastic)](https://linkedin.com/in/linkedinhandle)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add GUI**
@@ -128,11 +133,13 @@ If you like this project, kindly give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Microverse
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedback.
+- Hat tip to anyone whose code was used.
 - Ruby on Rails Documentation🙃
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/ginabeki/Blog_app/blob/develop/README.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

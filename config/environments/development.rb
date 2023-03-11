@@ -80,4 +80,6 @@ Rails.application.configure do
   :port => '2525',
   :authentication => :cram_md5
 }
+
+config.debug_exception_response_format = :api
 end
